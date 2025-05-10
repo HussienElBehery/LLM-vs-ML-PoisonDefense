@@ -1,6 +1,7 @@
 # A Comparative Study of Data Poisoning Detection in Wearable AI Systems using Machine Learning and Large Language Models
 
 **Authors:** Hussien Ahmed, Abdelaziz Amr, Abdallah Emam, Mamdouh Korithem, Mohamed Youssef
+
 *School of Information Technology and Computer Science, Nile University, Giza, Egypt*
 
 ---
