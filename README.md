@@ -8,11 +8,11 @@
 
 ## Abstract
 
-Data poisoning poses a significant threat to wearable human activity recognition (HAR) systems by covertly flipping labels in sensor datasets. [cite: 1] This work benchmarks the effectiveness of lightweight, traditional machine learning (ML) models against memory-efficient, quantized large language models (LLMs) for both detection and sanitization of poisoned data. [cite: 2]
+Data poisoning poses a significant threat to wearable human activity recognition (HAR) systems by covertly flipping labels in sensor datasets. This work benchmarks the effectiveness of lightweight, traditional machine learning (ML) models against memory-efficient, quantized large language models (LLMs) for both detection and sanitization of poisoned data. 
 
-Our findings indicate that ML classifiers, such as Random Forest and XGBoost, trained on a substantial dataset (100,000 samples), achieve high detection accuracies (93.5-94.0%) and recall rates (over 78%), with sanitization accuracies exceeding 87.8%, all achieved with CPU training times under 50 seconds. [cite: 3] In contrast, open-source LLMs (unsloth/gemma-2b, unsloth/llama-3.2-3B, unsloth/qwen2-1.5B), quantized and fine-tuned, demonstrated lower performance (up to 61% detection accuracy) on a smaller dataset, often defaulting to flagging all samples as poisoned to inflate recall. [cite: 4, 5]
+Our findings indicate that ML classifiers, such as Random Forest and XGBoost, trained on a substantial dataset (100,000 samples), achieve high detection accuracies (93.5-94.0%) and recall rates (over 78%), with sanitization accuracies exceeding 87.8%, all achieved with CPU training times under 50 seconds.  In contrast, open-source LLMs (unsloth/gemma-2b, unsloth/llama-3.2-3B, unsloth/qwen2-1.5B), quantized and fine-tuned, demonstrated lower performance (up to 61% detection accuracy) on a smaller dataset, often defaulting to flagging all samples as poisoned to inflate recall.
 
-The study concludes that, within typical resource constraints, traditional ML methods offer a more efficient, robust, and interpretable defense against label-flip attacks in wearable AI systems compared to the current quantized LLM approaches. [cite: 6]
+The study concludes that, within typical resource constraints, traditional ML methods offer a more efficient, robust, and interpretable defense against label-flip attacks in wearable AI systems compared to the current quantized LLM approaches.
 
 ---
 
