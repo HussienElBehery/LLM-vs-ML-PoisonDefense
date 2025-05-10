@@ -16,16 +16,6 @@ The study concludes that, within typical resource constraints, traditional ML me
 
 ---
 
-## 📜 Paper
-
-* **Title:** A Comparative Study of Data Poisoning Detection in Wearable AI Systems using Machine Learning and Large Language Models
-* **Authors:** Hussien Ahmed, Abdelaziz Amr, Abdallah Emam, Mamdouh Korithem, Mohamed Youssef
-* **Conference/Journal:** [Specify Conference/Journal if submitted/published, or "Preprint" if not yet published]
-* **Link to PDF:** [Optional: e.g., Link to arXiv, research gate, or the PDF in this repository like `Draft2_paper.pdf`]
-* **Date:** May 2025 (or specific publication date)
-
----
-
 ## 🎯 Key Focus & Contributions
 
 * Comparative analysis of traditional ML and quantized LLMs for data poisoning detection and sanitization in Wearable AI for Human Activity Recognition (HAR).
@@ -38,7 +28,7 @@ The study concludes that, within typical resource constraints, traditional ML me
 
 ## 📊 Dataset
 
-The study utilizes the **MotionSense dataset**[cite: 19, 38], which contains sensor data (accelerometer and gyroscope) from smartphones for various human activities.
+The study utilizes the **MotionSense dataset**, which contains sensor data (accelerometer and gyroscope) from smartphones for various human activities.
 
 ---
 
@@ -56,6 +46,6 @@ The study utilizes the **MotionSense dataset**[cite: 19, 38], which contains sen
 * unsloth/gemma-2b
 * unsloth/llama-3.2-3B
 * unsloth/qwen2-1.5B
-    * All LLMs were quantized to 4-bit weights via BitsAndBytes and fine-tuned with PEFT. [cite: 4]
+    * All LLMs were quantized to 4-bit weights via BitsAndBytes and fine-tuned with PEFT. 
 
 ---
